@@ -1,8 +1,12 @@
-OGÓLNY REGULAMIN ŚWIADCZENIA USŁUG KSIĘGOWYCH I KADROWO-PŁACOWYCH
+# Ogólny Regulamin Świadczenia Usług Księgowych I Kadrowo-Płacowych
 
-wersja 1.0 (obowiązuje od \[data\])
+*Integralny załącznik do [Umowy o świadczenie usług księgowych i kadrowo-płacowych](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa.md)*
 
-Dostępny pod adresem: https://github.com/360biuro/dokumenty
+*Dokumenty powiązane: [https://github.com/360biuro/dokumenty/tree/main/pliki](https://github.com/360biuro/dokumenty/tree/main/pliki)*
+
+*Najnowsza wersja: [https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md](https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md)* 
+
+*Historia wersji: [https://github.com/360biuro/dokumenty/commits/main/pliki/regulamin.md](https://github.com/360biuro/dokumenty/commits/main/pliki/regulamin.md)* 
 
 1. Model świadczenia usług i limity  
    1. Usługi księgowe świadczone są w oparciu o limit czasu pracy Biura przypisany do wybranego przez Klienta planu abonamentowego w Cenniku.  
