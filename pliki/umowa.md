@@ -4,15 +4,16 @@
 
 *Dokumenty powiązane: [https://github.com/360biuro/dokumenty/tree/main/pliki](https://github.com/360biuro/dokumenty/tree/main/pliki)*
 
+zawarta w dniu podpisania elektronicznego przez Strony:
 
 1. **{{ biuro_nazwa }}** – zwana dalej „**Biurem**":
    1. NIP: {{ biuro_nip }}
-   2. Reprezentowany przez: {{ biuro_reprezentant }}
+   2. Reprezentowana przez: {{ biuro_reprezentant }}
    3. PESEL Reprezentanta: {{ biuro_pesel }}
 
 2. **{{ klient_nazwa }}** – zwana dalej „**Klientem**":
    1. NIP: {{ klient_nip }}
-   2. Reprezentowany przez: {{ klient_reprezentant }}
+   2. Reprezentowana przez: {{ klient_reprezentant }}
    3. PESEL Reprezentanta: {{ klient_pesel }}
 
 Strony łącznie zwane są „**Stronami**”.
