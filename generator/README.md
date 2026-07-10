@@ -12,14 +12,16 @@ strony numerację i tę samą wersję/datę.
 
 ## Budowanie obrazu
 
+Z katalogu głównego repozytorium:
+
 ```bash
-docker build -t 360biuro-generator .
+docker build -t 360biuro-generator generator/
 ```
 
 ## Uruchomienie
 
-Uruchom kontener, montując katalog `pliki/` z repozytorium (tak, aby zawsze
-używać aktualnej wersji dokumentów z GitHuba):
+Z katalogu głównego repozytorium uruchom kontener, montując katalog `pliki/`
+(tak, aby zawsze używać aktualnej wersji dokumentów z GitHuba):
 
 ```bash
 docker run --rm -p 8080:8080 \
@@ -39,7 +41,13 @@ domyślną pola „Wersja dokumentów”.
 
 ## Zmienne środowiskowe
 
-| Zmienna    | Domyślnie    | Opis                                      |
-| ---------- | ------------ | ------------------------------------------ |
-| `PORT`     | `8080`       | Port, na którym nasłuchuje serwer.        |
-| `DOCS_DIR` | `/app/pliki` | Katalog z plikami `.md` do wygenerowania. |
+| Zmienna    | Domyślnie | Opis                                                                             |
+| ---------- | --------- | -------------------------------------------------------------------------------- |
+| `PORT`     | `8080`    | Port, na którym nasłuchuje serwer.                                               |
+| `DOCS_DIR` | `./pliki` | Katalog z plikami `.md` do wygenerowania (w obrazie Dockera: `/app/pliki`).      |
+
+Przy uruchomieniu lokalnym (bez Dockera) wykonuj z katalogu `generator/`:
+
+```bash
+DOCS_DIR=../pliki go run .
+```

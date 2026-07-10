@@ -4,12 +4,6 @@
 
 *Dokumenty powiązane: [https://github.com/360biuro/dokumenty/tree/main/pliki](https://github.com/360biuro/dokumenty/tree/main/pliki)*
 
-*Najnowsza wersja: [https://github.com/360biuro/dokumenty/blob/main/pliki/umowa.md](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa.md)* 
-
-*Historia wersji: [https://github.com/360biuro/dokumenty/commits/main/pliki/umowa.md](https://github.com/360biuro/dokumenty/commits/main/pliki/umowa.md)*
-
-
-zawarta w dniu podpisania elektronicznego przez Strony.
 
 1. **{{ biuro_nazwa }}** – zwana dalej „**Biurem**":
    1. NIP: {{ biuro_nip }}
@@ -47,26 +41,35 @@ Zmiana osób wyznaczonych do kontaktu lub ich danych kontaktowych nie stanowi zm
 
 \* Jeżeli usługa kadrowo-płacowa jest objęta Umową.
 
-4. Przedmiot i Ogólne Warunki Umowy  
-   1. Przedmiotem Umowy jest stałe świadczenie przez Biuro na rzecz Klienta usług księgowych oraz opcjonalnie kadrowo-płacowych.  
-   2. Integralną część niniejszej Umowy stanowią:  
-      1. Ogólny Regulamin Świadczenia Usług (zwany dalej „Regulaminem”), dostępny pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md](https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md)   
-      2. Cennik Usług (zwany dalej „Cennikiem”), określający szczegółowy zakres i limity usług, dostępny pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/cennik.md](https://github.com/360biuro/dokumenty/blob/main/pliki/cennik.md)   
-      3. Umowa Powierzenia Przetwarzania Danych Osobowych (zwana dalej „Umową Powierzenia”), zawierana jednocześnie z niniejszą Umową, dostępna pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md)   
-   3. Klient oświadcza, że przed podpisaniem Umowy zapoznał się z treścią Regulaminu, Cennika oraz Umowy Powierzenia, w pełni je akceptuje i zobowiązuje się do ich przestrzegania.  
-5. Czas Trwania Umowy i Okres Rozliczeniowy  
-   1. Usługi będą świadczone od dnia {{ uslugi\_start }} przez czas nieokreślony.  
-   2. Pierwszym miesiącem obrachunkowym objętym świadczeniem usług jest: {{ pierwszy\_miesiac\_obr }}/{{ pierwszy\_rok\_obr }}.  
-   3. Usługi realizowane są w miesięcznych okresach rozliczeniowych.  
-6. Indywidualne Ustalenia Stron i Wybór Planu  
-   1. Pierwszym planem abonamentowym wybranym przez Klienta na dzień zawarcia Umowy jest: {{ plan }}.  
-   2. Szczegółowy limit czasu pracy oraz zakres wybranego planu określa aktualny Cennik.  
-   3. Ustalenia dodatkowe: {{ ustalenia\_dodatkowe }}.  
-7. Aktualizacja Regulaminu i Cennika (Mechanizm jednostronny)  
-   1. Biuro jest uprawnione do jednostronnej zmiany Regulaminu oraz Cennika.  
-   2. Aktualizacja warunków następuje poprzez publikację nowej wersji dokumentów w repozytorium pod adresem: [https://github.com/360biuro/dokumenty](https://github.com/360biuro/dokumenty)   
-   3. O każdej zmianie Regulaminu lub Cennika Biuro powiadomi Klienta drogą elektroniczną (e-mail) z co najmniej 31-dniowym wyprzedzeniem.  
-   4. Jeżeli Klient nie akceptuje nowych warunków Regulaminu lub Cennika, przysługuje mu prawo do wypowiedzenia Umowy przed wejściem zmian w życie, z zachowaniem dotychczasowych stawek i zasad. Brak wypowiedzenia Umowy w tym terminie oznacza akceptację nowych warunków.  
-8. Postanowienia Końcowe  
-   1. Umowa zostaje zawarta w formie dokumentowej poprzez złożenie podpisów elektronicznych przez obie Strony.  
-   2. W sprawach nieuregulowanych Umową zastosowanie mają postanowienia Regulaminu oraz przepisy Kodeksu cywilnego.
+## § 2. Przedmiot i ogólne warunki Umowy
+
+1. Przedmiotem Umowy jest stałe świadczenie przez Biuro na rzecz Klienta usług księgowych oraz opcjonalnie kadrowo-płacowych.
+2. Integralną część niniejszej Umowy stanowią:
+   1. Ogólny Regulamin Świadczenia Usług (zwany dalej „Regulaminem”), dostępny pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md](https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md)
+   2. Cennik Usług (zwany dalej „Cennikiem”), określający szczegółowy zakres i limity usług, dostępny pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/cennik.md](https://github.com/360biuro/dokumenty/blob/main/pliki/cennik.md)
+   3. Umowa Powierzenia Przetwarzania Danych Osobowych (zwana dalej „Umową Powierzenia”), zawierana jednocześnie z niniejszą Umową, dostępna pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md)
+3. Klient oświadcza, że przed podpisaniem Umowy zapoznał się z treścią Regulaminu, Cennika oraz Umowy Powierzenia, w pełni je akceptuje i zobowiązuje się do ich przestrzegania.
+
+## § 3. Czas trwania Umowy i okres rozliczeniowy
+
+1. Usługi będą świadczone od dnia {{ uslugi\_start }} przez czas nieokreślony.
+2. Pierwszym miesiącem obrachunkowym objętym świadczeniem usług jest: {{ pierwszy\_miesiac\_obr }}/{{ pierwszy\_rok\_obr }}.
+3. Usługi realizowane są w miesięcznych okresach rozliczeniowych.
+
+## § 4. Indywidualne ustalenia Stron i wybór planu
+
+1. Pierwszym planem abonamentowym wybranym przez Klienta na dzień zawarcia Umowy jest: {{ plan }}.
+2. Szczegółowy limit czasu pracy oraz zakres wybranego planu określa aktualny Cennik.
+3. Ustalenia dodatkowe: {{ ustalenia\_dodatkowe }}.
+
+## § 5. Aktualizacja Regulaminu i Cennika (mechanizm jednostronny)
+
+1. Biuro jest uprawnione do jednostronnej zmiany Regulaminu oraz Cennika.
+2. Aktualizacja warunków następuje poprzez publikację nowej wersji dokumentów w repozytorium pod adresem: [https://github.com/360biuro/dokumenty](https://github.com/360biuro/dokumenty)
+3. O każdej zmianie Regulaminu lub Cennika Biuro powiadomi Klienta drogą elektroniczną (e-mail) z co najmniej 31-dniowym wyprzedzeniem.
+4. Jeżeli Klient nie akceptuje nowych warunków Regulaminu lub Cennika, przysługuje mu prawo do wypowiedzenia Umowy przed wejściem zmian w życie, z zachowaniem dotychczasowych stawek i zasad. Brak wypowiedzenia Umowy w tym terminie oznacza akceptację nowych warunków.
+
+## § 6. Postanowienia końcowe
+
+1. Umowa zostaje zawarta w formie dokumentowej poprzez złożenie podpisów elektronicznych przez obie Strony.
+2. W sprawach nieuregulowanych Umową zastosowanie mają postanowienia Regulaminu oraz przepisy Kodeksu cywilnego.

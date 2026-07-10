@@ -2,13 +2,8 @@
 
 (dalej jako: „Umowa Powierzenia”)
 
-*Integralny załącznik do [Umowy o świadczenie usług księgowych i kadrowo-płacowych](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa.md) (dalej „Umowa Główna”)*
-
 *Dokumenty powiązane: [https://github.com/360biuro/dokumenty/tree/main/pliki](https://github.com/360biuro/dokumenty/tree/main/pliki)*
 
-*Najnowsza wersja: [https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md)*
-
-*Historia wersji: [https://github.com/360biuro/dokumenty/commits/main/pliki/umowa_powierzenia.md](https://github.com/360biuro/dokumenty/commits/main/pliki/umowa_powierzenia.md)*
 
 zawarta w dniu podpisania elektronicznego przez Strony, jednocześnie z Umową Główną, pomiędzy:
 

@@ -1,14 +1,10 @@
-# Cennik usług
+# Cennik Usług Księgowych i Kadrowo-Płacowych
 
 *Integralny załącznik do [Umowy o świadczenie usług księgowych i kadrowo-płacowych](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa.md)*
 
 *Dokumenty powiązane: [https://github.com/360biuro/dokumenty/tree/main/pliki](https://github.com/360biuro/dokumenty/tree/main/pliki)*
 
-*Najnowsza wersja: [https://github.com/360biuro/dokumenty/blob/main/pliki/cennik.md](https://github.com/360biuro/dokumenty/blob/main/pliki/cennik.md)* 
-
-*Historia wersji: [https://github.com/360biuro/dokumenty/commits/main/pliki/cennik.md](https://github.com/360biuro/dokumenty/commits/main/pliki/cennik.md)* 
-
-# Cennik usług księgowych
+## 1. Cennik usług księgowych — plany abonamentowe
 
 | Opis/Plan | START | MINI | MIDI | MAXI | ULTRA |
 | ----- | :---: | :---: | :---: | :---: | :---: |
@@ -18,79 +14,67 @@
 | **Łączna miesięczna opłata abonamentowa (PLN/m-c)** | **390,00** | **840,00** | **1 540,00** | **2 940,00** | **5 740,00** |
 | Koszt usług poza planem lub dodatkowych (PLN/godz.) | 360,00 | 288,00 | 230,40 | 184,32 | 147,46 |
 
-## Podstawowe informacje o usługach księgowych
+## 2. Podstawowe informacje o usługach księgowych
 
-1. Wszystkie usługi świadczone są w modelu abonamentowym lub abonamentowo-mieszanym, opartym o miesięczny limit czasu pracy Biura lub jednostki określone w cennikach.  
-2. Wszystkie plany charakteryzują się takim samym przedmiotem świadczonych usług.  
-3. Każda czynność wykonywana przez Biuro w ramach modelu abonamentowego stanowi element puli czasu, niezależnie od jej charakteru.  
-4. Zakres usług obejmuje bieżącą obsługę operacyjną Klienta w obszarze księgowości.  
-5. Usługi mają charakter operacyjny i nie obejmują doradztwa, opinii ani czynności zastrzeżonych dla odrębnych uprawnień zawodowych, chyba że Strony ustalą inaczej w formie dokumentowej.  
-6. Cennik jest w walucie PLN.  
+1. Wszystkie usługi świadczone są w modelu abonamentowym lub abonamentowo-mieszanym, opartym o miesięczny limit czasu pracy Biura lub jednostki określone w cennikach.
+2. Wszystkie plany charakteryzują się takim samym przedmiotem świadczonych usług.
+3. Każda czynność wykonywana przez Biuro w ramach modelu abonamentowego stanowi element puli czasu, niezależnie od jej charakteru.
+4. Zakres usług obejmuje bieżącą obsługę operacyjną Klienta w obszarze księgowości.
+5. Usługi mają charakter operacyjny i nie obejmują doradztwa, opinii ani czynności zastrzeżonych dla odrębnych uprawnień zawodowych, chyba że Strony ustalą inaczej w formie dokumentowej.
+6. Cennik jest w walucie PLN.
 7. W przypadku wystawiania przez Biuro faktur VAT, podane kwoty są cenami netto.
 
-## Zakres usług księgowych
+## 3. Zakres usług księgowych
 
-### Ewidencja i księgowanie
+1. Ewidencja i księgowanie:
+   1. ewidencja dokumentów księgowych,
+   2. księgowanie sprzedaży i kosztów (KSeF i inne źródła),
+   3. księgowanie operacji bankowych i kasowych,
+   4. księgowanie importu i eksportu,
+   5. ewidencja środków trwałych oraz wartości niematerialnych i prawnych.
+2. VAT i rozliczenia:
+   1. rozliczenia VAT,
+   2. przygotowanie JPK\_V7M / JPK\_V7K,
+   3. obsługa KSeF,
+   4. weryfikacja dokumentów.
+3. Rozrachunki:
+   1. uzgadnianie sald,
+   2. kontrola rozrachunków.
+4. Raportowanie:
+   1. rachunek zysków i strat oraz bilans (miesięcznie i rocznie),
+   2. cash flow,
+   3. podstawowe zestawienia zarządcze.
+5. Obsługa klienta:
+   1. konsultacje w zakresie bieżącej księgowości,
+   2. komunikacja i korespondencja związana z bieżącą obsługą.
 
-* ewidencja dokumentów księgowych,  
-* księgowanie sprzedaży i kosztów (KSeF i inne źródła),  
-* księgowanie operacji bankowych i kasowych,  
-* księgowanie importu i eksportu,  
-* ewidencja środków trwałych oraz wartości niematerialnych i prawnych.
-
-### VAT i rozliczenia
-
-* rozliczenia VAT,  
-* przygotowanie JPK\_V7M / JPK\_V7K,  
-* obsługa KSeF,  
-* weryfikacja dokumentów.
-
-### Rozrachunki
-
-* uzgadnianie sald,  
-* kontrola rozrachunków.
-
-### Raportowanie
-
-* rachunek zysków i strat oraz bilans (miesięcznie i rocznie),  
-* cash flow,  
-* podstawowe zestawienia zarządcze.
-
-### Obsługa klienta
-
-* konsultacje w zakresie bieżącej księgowości,  
-* komunikacja i korespondencja związana z bieżącą obsługą.
-
-## Czynniki wpływające na wykorzystanie limitu czasu
+## 4. Czynniki wpływające na wykorzystanie limitu czasu
 
 Poniższe czynności wchodzą w zakres usług, lecz mogą istotnie zwiększać nakład czasu w ramach abonamentu:
 
-* dokumenty poza KSeF (PDF, papier, faktury zagraniczne),  
-* ręczne wprowadzanie danych,  
-* transakcje WNT / WDT, import i eksport,  
-* transakcje walutowe,  
-* korekty i wyjaśnienia,  
-* rekonstrukcja danych,  
-* niestandardowe raporty zarządcze,  
-* integracje systemów,  
-* sprawozdania finansowe,  
-* korespondencja wymagająca analizy,  
-* kontrole i postępowania wyjaśniające.
+1. dokumenty poza KSeF (PDF, papier, faktury zagraniczne),
+2. ręczne wprowadzanie danych,
+3. transakcje WNT / WDT, import i eksport,
+4. transakcje walutowe,
+5. korekty i wyjaśnienia,
+6. rekonstrukcja danych,
+7. niestandardowe raporty zarządcze,
+8. integracje systemów,
+9. sprawozdania finansowe,
+10. korespondencja wymagająca analizy,
+11. kontrole i postępowania wyjaśniające.
 
-
-## Wyłączenia
+## 5. Wyłączenia z usług księgowych
 
 Abonament nie obejmuje:
 
-* doradztwa podatkowego,  
-* opinii prawnych,  
-* reprezentacji przed sądami i organami administracji,  
-* usług biegłego rewidenta,  
-* czynności wymagających odrębnych uprawnień zawodowych.
+1. doradztwa podatkowego,
+2. opinii prawnych,
+3. reprezentacji przed sądami i organami administracji,
+4. usług biegłego rewidenta,
+5. czynności wymagających odrębnych uprawnień zawodowych.
 
-# Cennik usług kadrowo-płacowych
-
-## Cennik Usług Standardowych
+## 6. Cennik usług kadrowo-płacowych — usługi standardowe
 
 | Składnik | Stawka | Jednostka | Opis |
 | ----- | :---: | :---: | ----- |
@@ -98,7 +82,7 @@ Abonament nie obejmuje:
 | Umowa cywilnoprawna (umowa/m-c) | 60 | umowa/m-c | Opłata za podstawową obsługę kadrowo-płacową umowy cywilnoprawnej w określonym miesiącu. |
 | Umowa o pracę (umowa/m-c) | 90 | umowa/m-c | Opłata za podstawową obsługę kadrowo-płacową umowy o pracę w określonym miesiącu. |
 
-## Cennik Usług Dodatkowych
+## 7. Cennik usług kadrowo-płacowych — usługi dodatkowe
 
 | Składnik | Stawka | Jednostka | Opis |
 | ----- | :---: | :---: | ----- |
@@ -109,86 +93,81 @@ Abonament nie obejmuje:
 | Inne usługi dodatkowe operacyjne | 120 | godz. |  |
 | Inne usługi dodatkowe specjalistyczne | 240 | godz. |  |
 
-## Podstawowe informacje o usługach kadrowo-płacowych
+## 8. Podstawowe informacje o usługach kadrowo-płacowych
 
-1. Wszystkie usługi kadrowo-płacowe dzielą się w zakresie i cenie na:  
-   1. usługi standardowe  
-   2. usługi dodatkowe  
-      1. usługi dodatkowe – operacyjne  
-      2. usługi dodatkowe – specjalistyczne  
-2. Usługi dodatkowe określone w cenniku jako „opcjonalne”, wykonywane są po ich zleceniu przez Klienta.  
-3. Zakres usług obejmuje bieżącą obsługę operacyjną Klienta w obszarze kadr i płac.  
-4. Usługi mają charakter operacyjny i nie obejmują doradztwa, opinii ani czynności zastrzeżonych dla odrębnych uprawnień zawodowych, chyba że Strony ustalą inaczej w formie dokumentowej.  
-5. Cennik jest w walucie PLN.  
+1. Wszystkie usługi kadrowo-płacowe dzielą się w zakresie i cenie na:
+   1. usługi standardowe,
+   2. usługi dodatkowe:
+      1. usługi dodatkowe – operacyjne,
+      2. usługi dodatkowe – specjalistyczne.
+2. Usługi dodatkowe określone w cenniku jako „opcjonalne”, wykonywane są po ich zleceniu przez Klienta.
+3. Zakres usług obejmuje bieżącą obsługę operacyjną Klienta w obszarze kadr i płac.
+4. Usługi mają charakter operacyjny i nie obejmują doradztwa, opinii ani czynności zastrzeżonych dla odrębnych uprawnień zawodowych, chyba że Strony ustalą inaczej w formie dokumentowej.
+5. Cennik jest w walucie PLN.
 6. W przypadku wystawiania przez Biuro faktur VAT, podane kwoty są cenami netto.
 
-## Zakres Usług Standardowych
+## 9. Zakres usług standardowych (kadrowo-płacowych)
 
-Standardowe usługi kadrowo-płacowe obejmują bieżącą obsługę pracowników i zleceniobiorców.
+Standardowe usługi kadrowo-płacowe obejmują bieżącą obsługę pracowników i zleceniobiorców:
 
-### Kadry
+1. Kadry:
+   1. sporządzanie umów i aneksów,
+   2. zgłoszenia i wyrejestrowania ZUS (ZUA, ZWUA, ZZA),
+   3. ewidencja urlopów i nieobecności,
+   4. wystawianie zaświadczeń pracowniczych,
+   5. sporządzanie dokumentów dla celów BHP i badań lekarskich.
+2. Płace:
+   1. naliczanie wynagrodzeń,
+   2. sporządzanie list płac,
+   3. sporządzanie pasków wynagrodzeń,
+   4. zestawienia płacowe.
+3. Deklaracje i raporty:
+   1. sporządzanie i wysyłka deklaracji: DRA / RCA / RSA,
+   2. obsługa PUE ZUS,
+   3. raporty kosztowe.
+4. Obsługa operacyjna:
+   1. bieżące informacje i komunikacja kadrowa,
+   2. korespondencja związana z bieżącą obsługą.
 
-* sporządzanie umów i aneksów,  
-* zgłoszenia i wyrejestrowania ZUS (ZUA, ZWUA, ZZA),  
-* ewidencja urlopów i nieobecności,  
-* wystawianie zaświadczeń pracowniczych,  
-* sporządzanie dokumentów dla celów BHP i badań lekarskich.
+## 10. Czynniki mogące wpłynąć na wykluczenie usług z zakresu usług standardowych
 
-### Płace
+Poniższe czynniki mogą spowodować zakwalifikowanie usług do usług dodatkowych:
 
-* naliczanie wynagrodzeń,  
-* sporządzanie list płac,  
-* sporządzanie pasków wynagrodzeń,  
-* zestawienia płacowe.
+1. korekty historyczne list płac,
+2. brakujące lub błędne dane od Klienta,
+3. masowe zmiany danych pracowniczych,
+4. liczne benefity, premie i prowizje,
+5. niestandardowe raporty.
 
-### Deklaracje i raporty
+## 11. Zakres usług dodatkowych operacyjnych
 
-* Sporządzanie i wysyłka deklaracji: DRA / RCA / RSA,  
-* obsługa PUE ZUS,  
-* raporty kosztowe.
+Usługami dodatkowymi operacyjnymi są:
 
-### Obsługa operacyjna
+1. korekty danych i list płac,
+2. uzupełnianie brakujących informacji,
+3. masowa aktualizacja danych pracowniczych,
+4. przygotowanie standardowych zestawień,
+5. dodatkowe zestawienia operacyjne,
+6. obsługa benefitów, premii i prowizji,
+7. niestandardowe raporty,
+8. sporządzanie raportów dla banków i instytucji finansowych,
+9. obsługa PFRON,
+10. usługi niewymienione wśród usług standardowych.
 
-* bieżące informacje i komunikacja kadrowa,  
-* korespondencja związana z bieżącą obsługą.
+## 12. Zakres usług dodatkowych specjalistycznych
 
-## Czynniki mogące wpłynąć na wykluczenie usług z zakresu usług standardowych
+Usługami dodatkowymi specjalistycznymi są:
 
-Poniższe czynniki mogą spowodować zakwalifikowanie usług do usług dodatkowych.
-
-* korekty historyczne list płac,  
-* brakujące lub błędne dane od Klienta,  
-* masowe zmiany danych pracowniczych,  
-* liczne benefity, premie i prowizje,  
-* niestandardowe raporty.
-
-## Zakres usług dodatkowych operacyjnych
-
-Usługami dodatkowymi operacyjnymi są
-
-* korekty danych i list płac,  
-* uzupełnianie brakujących informacji,  
-* masowa aktualizacja danych pracowniczych,  
-* przygotowanie standardowych zestawień,  
-* dodatkowe zestawienia operacyjne,  
-* obsługa benefitów, premii i prowizji,  
-* niestandardowe raporty,  
-* sporządzanie raportów dla banków i instytucji finansowych,  
-* obsługa PFRON,  
-* usługi niewymienione wśród usług standardowych,
-
-## Zakres usług dodatkowych specjalistycznych
-
-* analizy skomplikowanych przypadków prawa pracy,  
-* przygotowanie odpowiedzi na pisma urzędowe,  
-* restrukturyzacje zatrudnienia i zwolnienia grupowe,  
-* audyty kadrowo-płacowe,  
-* tworzenia regulaminów, procedur i polityk HR,  
-* obsługę sporów pracowniczych,  
-* rozliczenia szczególnych świadczeń i ich skutków podatkowo-składkowych,  
-* reprezentacja przed ZUS, PIP, US i innymi organami,  
-* obsługa audytów i kontroli,  
-* porządkowanie i import danych kadrowych,  
-* postępowania wyjaśniające,  
-* czynności wymagające licencji lub odrębnych uprawnień zawodowych.  
-* usługi niewymienione wśród usług standardowych i dodatkowych operacyjnych
+1. analizy skomplikowanych przypadków prawa pracy,
+2. przygotowanie odpowiedzi na pisma urzędowe,
+3. restrukturyzacje zatrudnienia i zwolnienia grupowe,
+4. audyty kadrowo-płacowe,
+5. tworzenie regulaminów, procedur i polityk HR,
+6. obsługa sporów pracowniczych,
+7. rozliczenia szczególnych świadczeń i ich skutków podatkowo-składkowych,
+8. reprezentacja przed ZUS, PIP, US i innymi organami,
+9. obsługa audytów i kontroli,
+10. porządkowanie i import danych kadrowych,
+11. postępowania wyjaśniające,
+12. czynności wymagające licencji lub odrębnych uprawnień zawodowych,
+13. usługi niewymienione wśród usług standardowych i dodatkowych operacyjnych.

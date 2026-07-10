@@ -1,6 +1,8 @@
 # Ogólny Regulamin Świadczenia Usług Księgowych i Kadrowo‑Płacowych
 
-*Integralny załącznik do Umowy o świadczenie usług księgowych i kadrowo‑płacowych.*
+*Integralny załącznik do [Umowy o świadczenie usług księgowych i kadrowo-płacowych](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa.md)*
+
+*Dokumenty powiązane: [https://github.com/360biuro/dokumenty/tree/main/pliki](https://github.com/360biuro/dokumenty/tree/main/pliki)*
 
 ## 1. Definicje
 
