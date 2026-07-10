@@ -1,43 +1,63 @@
-# Ogólny Regulamin Świadczenia Usług Księgowych I Kadrowo-Płacowych
+# Ogólny Regulamin Świadczenia Usług Księgowych i Kadrowo‑Płacowych
 
-*Integralny załącznik do [Umowy o świadczenie usług księgowych i kadrowo-płacowych](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa.md)*
+*Integralny załącznik do Umowy o świadczenie usług księgowych i kadrowo‑płacowych.*
 
-*Dokumenty powiązane: [https://github.com/360biuro/dokumenty/tree/main/pliki](https://github.com/360biuro/dokumenty/tree/main/pliki)*
+## 1. Definicje
 
-*Najnowsza wersja: [https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md](https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md)* 
+1. **Cennik** – obowiązujący cennik usług Biura, stanowiący integralny załącznik do Umowy.
+2. **Limit czasu** – limit czasu pracy Biura przypisany do wybranego planu abonamentowego, obejmujący całkowity czas pracy związany z obsługą Klienta, w szczególności analizę dokumentów, księgowanie, przygotowanie deklaracji, kontakt z Klientem, wyjaśnienia, korekty, reprezentację oraz inne czynności wynikające z Umowy.
 
-*Historia wersji: [https://github.com/360biuro/dokumenty/commits/main/pliki/regulamin.md](https://github.com/360biuro/dokumenty/commits/main/pliki/regulamin.md)* 
+## 2. Model świadczenia usług i limity
 
-1. Model świadczenia usług i limity  
-   1. Usługi księgowe świadczone są w oparciu o limit czasu pracy Biura przypisany do wybranego przez Klienta planu abonamentowego w Cenniku.  
-   2. Usługi kadrowe świadczone są w oparciu o liczbę umów pracowniczych w danym miesiącu oraz zakresie wykonywanych usług, zgodnie z Cennikiem.  
-   3. W ramach limitu czasu realizowane są wszystkie usługi objęte zakresem umowy/cennika. Niewykorzystany limit czasu nie przechodzi na kolejne okresy rozliczeniowe.  
-   4. Dane z wewnętrznego rejestru czasu pracy Biura udostępniane są wyłącznie w przypadku sporu.  
-2. Wynagrodzenie i płatności  
-   1. Klient zobowiązuje się do zapłaty miesięcznego abonamentu zgodnie z wybranym planem i obowiązującym Cennikiem.  
-   2. Faktury wystawiane są z góry, na początku każdego miesiąca. W przypadku niemożliwości wystawienia faktury z góry, fakturowanie nastąpi do 15\. dnia miesiąca za usługi wykonane w miesiącu poprzednim. Faktury mogą być wystawiane oddzielnie za poszczególne usługi.  
-   3. Standardowy termin zapłaty wynosi 7 dni od dnia wystawienia faktury.  
-   4. W przypadku przekroczenia limitu czasu pracy o więcej niż 10% w danym miesiącu, Biuro informuje Klienta drogą elektroniczną. Klient może kontynuować realizację usług (na zasadach nadgodzin z Cennika), wstrzymać  lub zmienić plan od kolejnego miesiąca.  
-   5. W przypadku powtarzalnego przekroczenia limitu (2 miesiące z rzędu lub 3 miesiące w ciągu 6 miesięcy) Biuro może zaproponować zmianę planu adekwatną do rzeczywistego zakresu pracy.  
-   6. Biuro może wstrzymać świadczenie usług w przypadku opóźnień w płatnościach przekraczających termin wskazany na fakturze.  
-3. Obowiązki Klienta  
-   1. Klient zobowiązuje się do terminowego przekazywania kompletnych i prawidłowych dokumentów do 5\. dnia miesiąca następującego po miesiącu rozliczeniowym.  
-   2. Klient ponosi pełną odpowiedzialność za prawidłowość danych, autentyczność dokumentów oraz terminowość ich przekazywania.  
-   3. Opóźnienia lub braki dokumentów mogą wydłużyć czas realizacji usług, wpłynąć na wykorzystanie limitu abonamentowego oraz wymagać dodatkowych działań porządkowych (płatnych zgodnie z Cennikiem).  
-   4. Strony akceptują komunikację elektroniczną oraz korzystanie z systemów KSeF i innych narzędzi stosowanych przez Biuro.  
-4. Odpowiedzialność Biuro  
-   1. Biuro wykonuje usługi z należytą starannością zawodową.  
-   2. Biuro nie ponosi odpowiedzialności za skutki wynikające z błędnych lub niekompletnych danych, opóźnień Klienta, zatajenia informacji, błędów dokumentów źródłowych oraz awarii systemów zewnętrznych (w tym KSeF).  
-   3. Odpowiedzialność Biura ograniczona jest do wysokości wynagrodzenia netto z ostatnich 3 miesięcy, chyba że szkoda została wyrządzona umyślnie.  
-5. Rozwiązanie i wypowiedzenie współpracy  
-   1. Każda ze Stron może wypowiedzieć Umowę z zachowaniem 1-miesięcznego okresu wypowiedzenia, ze skutkiem na koniec miesiąca kalendarzowego. Wypowiedzenie wymaga formy dokumentowej (np. e-mail).  
-   2. Biuro może rozwiązać umowę ze skutkiem natychmiastowym w przypadku zaległości w płatnościach, uporczywego braku dokumentów, naruszenia prawa lub utraty zaufania uniemożliwiającej dalszą współpracę.  
-   3. W każdym przypadku rozwiązania umowy Klient zobowiązany jest do uregulowania wszystkich należności.  
-6. Poufność i ochrona danych (RODO)  
-   1. Strony zobowiązują się do zachowania poufności wszelkich informacji uzyskanych w związku z realizacją Umowy, również po jej zakończeniu.  
-   2. Dane osobowe przetwarzane są zgodnie z RODO na podstawie odrębnej Umowy Powierzenia Przetwarzania Danych Osobowych, zawieranej przy podpisaniu Umowy Głównej, dostępnej pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md)   
-7. Postanowienia końcowe regulaminu  
-   1. W sprawach nieuregulowanych stosuje się przepisy prawa polskiego, w szczególności Kodeksu cywilnego.  
-   2. Spory rozstrzyga sąd właściwy dla siedziby Biura.  
-   3. Doręczenia elektroniczne na adresy e-mail wskazane przez Strony uznaje się za skuteczne.
+1. Usługi księgowe świadczone są w oparciu o Limit czasu przypisany do wybranego planu abonamentowego zgodnie z Cennikiem.
+2. Usługi kadrowo‑płacowe świadczone są zgodnie z Cennikiem.
+3. Niewykorzystany Limit czasu nie przechodzi na kolejny okres rozliczeniowy.
+4. Biuro prowadzi wewnętrzną ewidencję czasu pracy wykorzystywaną do rozliczeń. Szczegółowa ewidencja ma charakter wewnętrzny i jest udostępniana wyłącznie w przypadku uzasadnionego sporu dotyczącego rozliczeń.
 
+## 3. Wynagrodzenie i płatności
+
+1. Klient opłaca miesięczny abonament zgodnie z Cennikiem.
+2. Faktury wystawiane są z góry na początku miesiąca, a jeżeli nie jest to możliwe – do 15. dnia miesiąca za miesiąc poprzedni.
+3. Termin płatności wynosi 7 dni od dnia wystawienia faktury.
+4. W przypadku przekroczenia Limitu czasu o więcej niż 10% Biuro informuje Klienta drogą elektroniczną. Klient może kontynuować realizację usług (według stawek z Cennika), wstrzymać realizację usług niewymaganych przepisami prawa lub zmienić plan abonamentowy od kolejnego miesiąca. W przypadku braku stanowiska Klienta Biuro może kontynuować wykonywanie czynności niezbędnych do zachowania terminów wynikających z przepisów prawa, rozliczając je zgodnie z Cennikiem.
+5. Jeżeli rzeczywisty zakres świadczonych usług w sposób powtarzalny istotnie odbiega od zakresu odpowiadającego wybranemu planowi abonamentowemu, zarówno w górę, jak i w dół, każda ze Stron może wystąpić z propozycją zmiany planu abonamentowego. Za powtarzalne odchylenie uznaje się przekroczenie lub niewykorzystanie limitu przez 2 kolejne miesiące albo przez 3 miesiące w okresie kolejnych 6 miesięcy. Zmiana planu wymaga zgodnego porozumienia Stron.
+
+## 4. Obowiązki Klienta
+
+1. Klient przekazuje kompletne i prawidłowe dokumenty do 5. dnia miesiąca następującego po miesiącu rozliczeniowym, chyba że Umowa lub przepisy prawa wymagają wcześniejszego przekazania dokumentów.
+2. Klient odpowiada za prawidłowość danych i dokumentów.
+3. Opóźnienia mogą wydłużyć realizację usług, zwiększyć wykorzystanie Limitu czasu oraz skutkować dodatkowymi pracami rozliczanymi zgodnie z Cennikiem.
+4. Strony akceptują komunikację elektroniczną, w szczególności za pośrednictwem poczty elektronicznej, panelu Klienta oraz systemów teleinformatycznych wykorzystywanych przez Biuro.
+
+## 5. Odpowiedzialność
+
+1. Biuro wykonuje usługi z należytą starannością zawodową.
+2. Biuro nie odpowiada za skutki wynikające z błędnych danych przekazanych przez Klienta ani awarii systemów zewnętrznych.
+3. Odpowiedzialność Biura ograniczona jest do wysokości wynagrodzenia netto otrzymanego za ostatnie 3 miesiące, z zastrzeżeniem przypadków, w których ograniczenie odpowiedzialności jest niedopuszczalne na podstawie bezwzględnie obowiązujących przepisów prawa lub szkoda została wyrządzona umyślnie.
+
+## 6. Rozwiązanie Umowy
+
+1. Każda ze Stron może wypowiedzieć Umowę z jednomiesięcznym okresem wypowiedzenia ze skutkiem na koniec miesiąca.
+2. Biuro może rozwiązać Umowę ze skutkiem natychmiastowym w przypadku zaległości płatniczych, uporczywego nieprzekazywania dokumentów, naruszenia prawa albo trwałego naruszenia obowiązków uniemożliwiającego dalszą współpracę.
+3. Klient zobowiązany jest uregulować wszystkie należności.
+
+## 7. Poufność i RODO
+
+1. Strony zachowują poufność informacji również po zakończeniu Umowy.
+2. Dane osobowe przetwarzane są zgodnie z RODO na podstawie odrębnej umowy powierzenia.
+
+## 8. Zmiany Regulaminu i Cennika
+
+1. Biuro może zmienić Regulamin lub Cennik z ważnych przyczyn, w szczególności z powodu zmian prawa, kosztów działalności, zakresu usług lub wykorzystywanych systemów.
+2. O zmianach Klient zostanie poinformowany co najmniej 14 dni przed ich wejściem w życie.
+3. Jeżeli Klient nie akceptuje zmian, może wypowiedzieć Umowę przed dniem ich wejścia w życie.
+
+## 9. Siła wyższa
+
+Biuro nie odpowiada za niewykonanie lub opóźnienie usług spowodowane siłą wyższą, awariami infrastruktury teleinformatycznej lub systemów administracji publicznej.
+
+## 10. Postanowienia końcowe
+
+1. W sprawach nieuregulowanych stosuje się prawo polskie.
+2. W relacjach B2B spory rozstrzyga sąd właściwy dla siedziby Biura, o ile przepisy bezwzględnie obowiązujące nie stanowią inaczej.
+3. Doręczenia elektroniczne na uzgodnione adresy e‑mail uważa się za skuteczne.
