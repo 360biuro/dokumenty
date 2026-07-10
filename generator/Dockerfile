@@ -1,12 +1,12 @@
 # --- Etap 1: budowanie aplikacji Go ---
 FROM golang:1.22-bookworm AS build
 WORKDIR /app
-COPY go.mod go.sum ./
+COPY generator/go.mod generator/go.sum ./
 # go mod download pobiera zależności zadeklarowane w go.mod/go.sum - wymaga
 # dostępu do sieci podczas budowania obrazu.
 RUN go mod download
-COPY main.go ./
-COPY biura.json ./
+COPY generator/main.go ./
+COPY generator/biura.json ./
 RUN CGO_ENABLED=0 go build -o /app/dokumenty-generator ./main.go
 
 # --- Etap 2: obraz uruchomieniowy ---
