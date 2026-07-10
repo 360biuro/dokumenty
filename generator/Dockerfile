@@ -23,6 +23,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /app
 COPY --from=build /app/dokumenty-generator ./dokumenty-generator
 COPY --from=build /app/biura.json ./biura.json
+COPY pliki/ ./pliki/
 
 ENV PORT=8080
 ENV DOCS_DIR=/app/pliki
