@@ -11,13 +11,13 @@
 1. Model świadczenia usług i limity  
    1. Usługi księgowe świadczone są w oparciu o limit czasu pracy Biura przypisany do wybranego przez Klienta planu abonamentowego w Cenniku.  
    2. Usługi kadrowe świadczone są w oparciu o liczbę umów pracowniczych w danym miesiącu oraz zakresie wykonywanych usług, zgodnie z Cennikiem.  
-   3. W ramach limitu czasu realizowane są wszystkie usługi objęte zakresem umowy. Niewykorzystany limit czasu nie przechodzi na kolejne okresy rozliczeniowe.  
+   3. W ramach limitu czasu realizowane są wszystkie usługi objęte zakresem umowy/cennika. Niewykorzystany limit czasu nie przechodzi na kolejne okresy rozliczeniowe.  
    4. Dane z wewnętrznego rejestru czasu pracy Biura udostępniane są wyłącznie w przypadku sporu.  
 2. Wynagrodzenie i płatności  
    1. Klient zobowiązuje się do zapłaty miesięcznego abonamentu zgodnie z wybranym planem i obowiązującym Cennikiem.  
-   2. Faktury wystawiane są z góry, na początku każdego miesiąca. W przypadku niemożliwości wystawienia faktury z góry, fakturowanie nastąpi do 15\. dnia miesiąca za usługi wykonane w miesiącu poprzednim. Faktury mogą być wystawiane oddzielnie.  
+   2. Faktury wystawiane są z góry, na początku każdego miesiąca. W przypadku niemożliwości wystawienia faktury z góry, fakturowanie nastąpi do 15\. dnia miesiąca za usługi wykonane w miesiącu poprzednim. Faktury mogą być wystawiane oddzielnie za poszczególne usługi.  
    3. Standardowy termin zapłaty wynosi 7 dni od dnia wystawienia faktury.  
-   4. W przypadku przekroczenia limitu czasu pracy o więcej niż 10% w danym miesiącu, Biuro informuje Klienta drogą elektroniczną. Klient może kontynuować realizację usług (na zasadach nadgodzin z Cennika) lub zmienić plan od kolejnego miesiąca.  
+   4. W przypadku przekroczenia limitu czasu pracy o więcej niż 10% w danym miesiącu, Biuro informuje Klienta drogą elektroniczną. Klient może kontynuować realizację usług (na zasadach nadgodzin z Cennika), wstrzymać  lub zmienić plan od kolejnego miesiąca.  
    5. W przypadku powtarzalnego przekroczenia limitu (2 miesiące z rzędu lub 3 miesiące w ciągu 6 miesięcy) Biuro może zaproponować zmianę planu adekwatną do rzeczywistego zakresu pracy.  
    6. Biuro może wstrzymać świadczenie usług w przypadku opóźnień w płatnościach przekraczających termin wskazany na fakturze.  
 3. Obowiązki Klienta  
@@ -35,7 +35,7 @@
    3. W każdym przypadku rozwiązania umowy Klient zobowiązany jest do uregulowania wszystkich należności.  
 6. Poufność i ochrona danych (RODO)  
    1. Strony zobowiązują się do zachowania poufności wszelkich informacji uzyskanych w związku z realizacją Umowy, również po jej zakończeniu.  
-   2. Dane osobowe przetwarzane są zgodnie z RODO na podstawie odrębnej umowy powierzenia przetwarzania danych, zawieranej przy podpisaniu Umowy Głównej.  
+   2. Dane osobowe przetwarzane są zgodnie z RODO na podstawie odrębnej Umowy Powierzenia Przetwarzania Danych Osobowych, zawieranej przy podpisaniu Umowy Głównej, dostępnej pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md)   
 7. Postanowienia końcowe regulaminu  
    1. W sprawach nieuregulowanych stosuje się przepisy prawa polskiego, w szczególności Kodeksu cywilnego.  
    2. Spory rozstrzyga sąd właściwy dla siedziby Biura.  

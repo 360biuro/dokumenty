@@ -11,46 +11,49 @@
 
 zawarta w dniu podpisania elektronicznego przez Strony.
 
-1. Pierwsza strona umowy – zwana dalej „**Biurem**”:  
-   1. Biuro Rachunkowe: {{ biuro\_nazwa }},   
-   2. NIP {{ biuro\_nip }},   
-   3. Reprezentant: {{ biuro\_reprezentant }},   
-   4. PESEL Reprezentanta {{ biuro\_pesel }},   
-2. Druga strona umowy – zwana dalej „**Klientem**”:  
-   1. Podmiot {{ klient\_nazwa }},   
-   2. NIP {{ klient\_nip }},   
-   3. reprezentowany przez {{ klient\_reprezentant }},   
-   4. PESEL {{ klient\_pesel }} 
+1. **{{ biuro_nazwa }}** – zwana dalej „**Biurem**":
+   1. NIP: {{ biuro_nip }}
+   2. Reprezentowany przez: {{ biuro_reprezentant }}
+   3. PESEL Reprezentanta: {{ biuro_pesel }}
+
+2. **{{ klient_nazwa }}** – zwana dalej „**Klientem**":
+   1. NIP: {{ klient_nip }}
+   2. Reprezentowany przez: {{ klient_reprezentant }}
+   3. PESEL Reprezentanta: {{ klient_pesel }}
 
 Strony łącznie zwane są „**Stronami**”.
 
-3. Dane kontaktowe stron umowy:  
-   1. Biuro  
-      1. Zarząd   
-         1. {{ biuro\_email\_zarzad }}  
-         2. {{ biuro\_tel\_zarzad }}  
-      2. Obsługa księgowa   
-         1. {{ biuro\_email\_ksiegowosc}}  
-         2. {{ biuro\_tel\_ksiegowosc }}  
-      3. Obsługa kadrowo-płacowa  
-         1.  {{ biuro\_email\_kadry }}  
-         2. {{ biuro\_tel\_kadry }}  
-   2. Klient  
-      1. Zarząd   
-         1. {{ klient\_email\_zarzad }}  
-         2. {{ klient\_tel\_zarzad }}  
-      2. Obsługa księgowa   
-         1. {{ klient\_email\_ksiegowosc}}  
-         2. {{ klient\_tel\_ksiegowosc }}  
-      3. Obsługa kadrowo-płacowa  
-         1.  {{ klient\_email\_kadry }}  
-         2. {{ klient\_tel\_kadry }}  
+## § 1. Osoby wyznaczone do realizacji Umowy
+
+Strony wyznaczają osoby odpowiedzialne za bieżącą współpracę oraz wymianę informacji związanych z wykonywaniem niniejszej Umowy.
+
+### Po stronie Biura:
+
+| Funkcja | Imię i nazwisko | E-mail | Telefon |
+|---------|-----------------|--------|---------|
+| Opiekun Klienta | {{ biuro_opiekun }} | {{ biuro_email_opiekun }} | {{ biuro_tel_opiekun }} |
+| Księgowość | {{ biuro_ksiegowy }} | {{ biuro_email_ksiegowosc }} | {{ biuro_tel_ksiegowosc }} |
+| Kadry i płace* | {{ biuro_kadry }} | {{ biuro_email_kadry }} | {{ biuro_tel_kadry }} |
+
+### Po stronie Klienta:
+
+| Funkcja | Imię i nazwisko | E-mail | Telefon |
+|---------|-----------------|--------|---------|
+| Osoba do kontaktu | {{ klient_kontakt }} | {{ klient_email_kontakt }} | {{ klient_tel_kontakt }} |
+| Księgowość (jeżeli występuje) | {{ klient_ksiegowy }} | {{ klient_email_ksiegowosc }} | {{ klient_tel_ksiegowosc }} |
+| Kadry i płace* | {{ klient_kadry }} | {{ klient_email_kadry }} | {{ klient_tel_kadry }} |
+
+Zmiana osób wyznaczonych do kontaktu lub ich danych kontaktowych nie stanowi zmiany Umowy i jest skuteczna z chwilą poinformowania drugiej Strony w formie dokumentowej (w szczególności pocztą elektroniczną). Każda ze Stron zobowiązuje się niezwłocznie poinformować drugą Stronę o zmianie danych kontaktowych.
+
+\* Jeżeli usługa kadrowo-płacowa jest objęta Umową.
+
 4. Przedmiot i Ogólne Warunki Umowy  
    1. Przedmiotem Umowy jest stałe świadczenie przez Biuro na rzecz Klienta usług księgowych oraz opcjonalnie kadrowo-płacowych.  
    2. Integralną część niniejszej Umowy stanowią:  
       1. Ogólny Regulamin Świadczenia Usług (zwany dalej „Regulaminem”), dostępny pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md](https://github.com/360biuro/dokumenty/blob/main/pliki/regulamin.md)   
       2. Cennik Usług (zwany dalej „Cennikiem”), określający szczegółowy zakres i limity usług, dostępny pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/cennik.md](https://github.com/360biuro/dokumenty/blob/main/pliki/cennik.md)   
-   3. Klient oświadcza, że przed podpisaniem Umowy zapoznał się z treścią Regulaminu oraz Cennika, w pełni je akceptuje i zobowiązuje się do ich przestrzegania.  
+      3. Umowa Powierzenia Przetwarzania Danych Osobowych (zwana dalej „Umową Powierzenia”), zawierana jednocześnie z niniejszą Umową, dostępna pod adresem: [https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md](https://github.com/360biuro/dokumenty/blob/main/pliki/umowa_powierzenia.md)   
+   3. Klient oświadcza, że przed podpisaniem Umowy zapoznał się z treścią Regulaminu, Cennika oraz Umowy Powierzenia, w pełni je akceptuje i zobowiązuje się do ich przestrzegania.  
 5. Czas Trwania Umowy i Okres Rozliczeniowy  
    1. Usługi będą świadczone od dnia {{ uslugi\_start }} przez czas nieokreślony.  
    2. Pierwszym miesiącem obrachunkowym objętym świadczeniem usług jest: {{ pierwszy\_miesiac\_obr }}/{{ pierwszy\_rok\_obr }}.  
