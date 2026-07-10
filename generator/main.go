@@ -207,9 +207,9 @@ func officeProfileNames(profiles map[string]map[string]string) []string {
 }
 
 type indexPageData struct {
-	Groups              []formGroup
-	OfficeProfileNames  []string
-	OfficeProfilesJSON  template.JS
+	Groups             []formGroup
+	OfficeProfileNames []string
+	OfficeProfilesJSON template.JS
 }
 
 var indexTmpl = template.Must(template.New("index").Parse(`<!doctype html>
