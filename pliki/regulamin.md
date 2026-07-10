@@ -63,3 +63,4 @@ Biuro nie odpowiada za niewykonanie lub opóźnienie usług spowodowane siłą w
 1. W sprawach nieuregulowanych stosuje się prawo polskie.
 2. W relacjach B2B spory rozstrzyga sąd właściwy dla siedziby Biura, o ile przepisy bezwzględnie obowiązujące nie stanowią inaczej.
 3. Doręczenia elektroniczne na uzgodnione adresy e‑mail uważa się za skuteczne.
+

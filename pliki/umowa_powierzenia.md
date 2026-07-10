@@ -96,3 +96,4 @@ Podmiot Przetwarzający zobowiązuje się do:
 2. Rozwiązanie Umowy Głównej skutkuje rozwiązaniem niniejszej Umowy Powierzenia, z zachowaniem obowiązków określonych w § 11.
 3. W sprawach nieuregulowanych niniejszą Umową Powierzenia zastosowanie mają przepisy RODO, ustawy o ochronie danych osobowych oraz Kodeksu cywilnego.
 4. Umowa Powierzenia zostaje zawarta w formie dokumentowej poprzez złożenie podpisów elektronicznych przez obie Strony, jednocześnie z Umową Główną.
+

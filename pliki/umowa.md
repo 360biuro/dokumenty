@@ -53,9 +53,10 @@ Zmiana osób wyznaczonych do kontaktu lub ich danych kontaktowych nie stanowi zm
 
 ## § 3. Czas trwania Umowy i okres rozliczeniowy
 
-1. Usługi będą świadczone od dnia {{ uslugi\_start }} przez czas nieokreślony.
-2. Pierwszym miesiącem obrachunkowym objętym świadczeniem usług jest: {{ pierwszy\_miesiac\_obr }}/{{ pierwszy\_rok\_obr }}.
-3. Usługi realizowane są w miesięcznych okresach rozliczeniowych.
+1. Usługi będą świadczone od dnia {{ uslugi_start }} przez czas nieokreślony.
+2. Pierwszym miesiącem obrachunkowym objętym świadczeniem usług jest: {{ pierwszy_miesiac_obr }}/{{ pierwszy_rok_obr }}.
+3. Wynagrodzenie za usługi jest należne za okres świadczenia usług określony w niniejszej Umowie i nie jest uzależnione od okresów obrachunkowych, których dotyczą dokumenty lub operacje gospodarcze objęte obsługą.
+4. Usługi rozliczane są w miesięcznych okresach rozliczeniowych.
 
 ## § 4. Indywidualne ustalenia Stron i wybór planu
 

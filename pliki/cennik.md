@@ -170,3 +170,4 @@ Usługami dodatkowymi specjalistycznymi są:
 ## 13. Informacje dodatkowe
 
 1. Ceny nie zawierają podatku VAT i określone są w walucie PLN.
+
