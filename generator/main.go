@@ -13,6 +13,7 @@ import (
 	"archive/zip"
 	"bytes"
 	"context"
+	"encoding/json"
 	"fmt"
 	"html/template"
 	"log"
@@ -146,9 +147,15 @@ func buildFormGroups(vars []string) []formGroup {
 	return result
 }
 
-// defaultVersion próbuje odczytać domyślną wersję z pliku VERSION
-// (w katalogu dokumentów lub katalogu nadrzędnym), jeśli taki istnieje.
+// defaultVersion próbuje odczytać domyślną wersję z pliku VERSION,
+// zmiennej środowiskowej lub skrótu commita git, jeśli jest dostępny.
 func defaultVersion() string {
+	if v := strings.TrimSpace(os.Getenv("DOCUMENT_VERSION")); v != "" {
+		return v
+	}
+	if v := strings.TrimSpace(os.Getenv("VERSION")); v != "" {
+		return v
+	}
 	candidates := []string{
 		filepath.Join(docsDir(), "VERSION"),
 		filepath.Join(docsDir(), "..", "VERSION"),
@@ -158,12 +165,51 @@ func defaultVersion() string {
 			return strings.TrimSpace(string(b))
 		}
 	}
+	if _, err := exec.LookPath("git"); err == nil {
+		if out, err := exec.Command("git", "rev-parse", "--short", "HEAD").CombinedOutput(); err == nil {
+			if v := strings.TrimSpace(string(out)); v != "" {
+				return v
+			}
+		}
+	}
 	return ""
 }
 
+func loadOfficeProfiles() (map[string]map[string]string, error) {
+	candidates := []string{
+		os.Getenv("OFFICE_PROFILES_PATH"),
+		"./biura.json",
+		"./generator/biura.json",
+		filepath.Join("..", "biura.json"),
+	}
+	for _, p := range candidates {
+		if p == "" {
+			continue
+		}
+		if b, err := os.ReadFile(p); err == nil {
+			profiles := map[string]map[string]string{}
+			if err := json.Unmarshal(b, &profiles); err != nil {
+				return nil, fmt.Errorf("niepoprawny format %s: %w", p, err)
+			}
+			return profiles, nil
+		}
+	}
+	return map[string]map[string]string{}, nil
+}
+
+func officeProfileNames(profiles map[string]map[string]string) []string {
+	names := make([]string, 0, len(profiles))
+	for name := range profiles {
+		names = append(names, name)
+	}
+	sort.Strings(names)
+	return names
+}
+
 type indexPageData struct {
-	Groups         []formGroup
-	DefaultVersion string
+	Groups              []formGroup
+	OfficeProfileNames  []string
+	OfficeProfilesJSON  template.JS
 }
 
 var indexTmpl = template.Must(template.New("index").Parse(`<!doctype html>
@@ -180,9 +226,8 @@ var indexTmpl = template.Must(template.New("index").Parse(`<!doctype html>
   fieldset { border: 1px solid #e2e2e6; border-radius: 8px; margin-bottom: 20px; padding: 16px 20px 20px; }
   legend { font-weight: 600; padding: 0 8px; font-size: 14px; }
   label { display: block; font-size: 13px; color: #444; margin-top: 12px; margin-bottom: 4px; }
-  input[type=text] { width: 100%; box-sizing: border-box; padding: 8px 10px; border: 1px solid #d0d0d6; border-radius: 6px; font-size: 14px; }
-  input[type=text]:focus { outline: 2px solid #4a7dfc; border-color: transparent; }
-  .version-box { background: #f0f4ff; border: 1px solid #c8d6ff; }
+  input[type=text], select { width: 100%; box-sizing: border-box; padding: 8px 10px; border: 1px solid #d0d0d6; border-radius: 6px; font-size: 14px; }
+  input[type=text]:focus, select:focus { outline: 2px solid #4a7dfc; border-color: transparent; }
   button { margin-top: 24px; background: #2555d9; color: #fff; border: none; padding: 12px 26px; font-size: 15px; border-radius: 7px; cursor: pointer; }
   button:hover { background: #1c45b8; }
   .hint { font-size: 12px; color: #888; margin-top: 6px; }
@@ -193,12 +238,17 @@ var indexTmpl = template.Must(template.New("index").Parse(`<!doctype html>
   <h1>Generator dokumentów księgowych</h1>
   <p class="sub">Wypełnij dane, aby wygenerować komplet dokumentów PDF: umowę, regulamin, cennik i umowę powierzenia. Puste pola pojawią się w dokumentach jako "……………".</p>
   <form method="POST" action="/generate">
-    <fieldset class="version-box">
-      <legend>Wersja dokumentów</legend>
-      <label for="_wersja">Numer wersji (np. 1.4.0)</label>
-      <input type="text" id="_wersja" name="_wersja" value="{{ .DefaultVersion }}" required placeholder="np. 1.4.0">
-      <p class="hint">Data wygenerowania zostanie dodana automatycznie.</p>
+    <fieldset>
+      <legend>Biuro</legend>
+      <label for="office-profile-select">Wybierz profil biura</label>
+      <select id="office-profile-select" name="_biuro_profile">
+        {{ range .OfficeProfileNames }}
+        <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+      <p class="hint">Zmiana profilu uzupełni pola formularza z sekcji „Biuro”.</p>
     </fieldset>
+    <script type="application/json" id="office-profiles">{{ .OfficeProfilesJSON }}</script>
     {{ range .Groups }}
     <fieldset>
       <legend>{{ .Name }}</legend>
@@ -211,6 +261,25 @@ var indexTmpl = template.Must(template.New("index").Parse(`<!doctype html>
     <button type="submit">Generuj dokumenty (PDF)</button>
   </form>
 </div>
+<script>
+(function () {
+  const profilesEl = document.getElementById('office-profiles');
+  if (!profilesEl) return;
+  const profiles = JSON.parse(profilesEl.textContent || '{}');
+  const select = document.getElementById('office-profile-select');
+  const officeInputs = Array.from(document.querySelectorAll('input[name^="biuro_"]'));
+  if (!select || officeInputs.length === 0) return;
+  function applyProfile() {
+    const profileName = select.value;
+    const profile = profileName && profiles[profileName] ? profiles[profileName] : {};
+    officeInputs.forEach(function (input) {
+      input.value = profile[input.name] || '';
+    });
+  }
+  select.addEventListener('change', applyProfile);
+  applyProfile();
+})();
+</script>
 </body>
 </html>`))
 
@@ -224,9 +293,18 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, err.Error(), http.StatusInternalServerError)
 		return
 	}
+	profiles, err := loadOfficeProfiles()
+	if err != nil {
+		log.Printf("warning: %v", err)
+	}
+	profilesJSON, err := json.Marshal(profiles)
+	if err != nil {
+		profilesJSON = []byte("{}")
+	}
 	data := indexPageData{
-		Groups:         buildFormGroups(vars),
-		DefaultVersion: defaultVersion(),
+		Groups:             buildFormGroups(vars),
+		OfficeProfileNames: officeProfileNames(profiles),
+		OfficeProfilesJSON: template.JS(profilesJSON),
 	}
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 	if err := indexTmpl.Execute(w, data); err != nil {
@@ -282,7 +360,7 @@ var docTmpl = template.Must(template.New("doc").Parse(`<!doctype html>
 </style>
 </head>
 <body>
-<div class="meta">Wersja dokumentów: {{ .Version }} &nbsp;|&nbsp; Wygenerowano: {{ .GeneratedAt }}</div>
+<div class="meta">{{ if .Version }}Wersja dokumentów: {{ .Version }} &nbsp;|&nbsp;{{ end }} Wygenerowano: {{ .GeneratedAt }}</div>
 {{ .Body }}
 </body>
 </html>`))
@@ -300,7 +378,7 @@ func renderHTML(bodyHTML, version, generatedAt string) (string, error) {
 // htmlToPDF generuje PDF z HTML za pomocą wkhtmltopdf uruchamianego pod
 // xvfb-run (wersja wkhtmltopdf z repozytoriów Debiana wymaga wirtualnego
 // serwera X do renderowania w trybie headless).
-func htmlToPDF(html, footerLeft, footerRight string) ([]byte, error) {
+func htmlToPDF(html, footerHTMLContent string) ([]byte, error) {
 	tmpDir, err := os.MkdirTemp("", "docgen-*")
 	if err != nil {
 		return nil, err
@@ -308,8 +386,12 @@ func htmlToPDF(html, footerLeft, footerRight string) ([]byte, error) {
 	defer os.RemoveAll(tmpDir)
 
 	htmlPath := filepath.Join(tmpDir, "doc.html")
+	footerPath := filepath.Join(tmpDir, "footer.html")
 	pdfPath := filepath.Join(tmpDir, "doc.pdf")
 	if err := os.WriteFile(htmlPath, []byte(html), 0o644); err != nil {
+		return nil, err
+	}
+	if err := os.WriteFile(footerPath, []byte(footerHTMLContent), 0o644); err != nil {
 		return nil, err
 	}
 
@@ -325,11 +407,8 @@ func htmlToPDF(html, footerLeft, footerRight string) ([]byte, error) {
 		"--margin-left", "18mm",
 		"--margin-right", "18mm",
 		"--encoding", "utf-8",
-		"--footer-font-size", "8",
 		"--footer-spacing", "4",
-		"--footer-left", footerLeft,
-		"--footer-right", footerRight,
-		"--footer-line",
+		"--footer-html", footerPath,
 		htmlPath,
 		pdfPath,
 	}
@@ -352,6 +431,30 @@ func sanitizeVersion(v string) string {
 	return v
 }
 
+func footerHTML(version, generatedAt string) string {
+	left := fmt.Sprintf("Wygenerowano: %s", generatedAt)
+	if strings.TrimSpace(version) != "" {
+		left = fmt.Sprintf("Wersja: %s — %s", version, generatedAt)
+	}
+	return fmt.Sprintf(`<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { margin: 0; padding: 0; font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8px; color: #555; }
+  .wrap { display: flex; justify-content: space-between; align-items: center; width: 100%; }
+  a { color: #1a4fa0; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span>%s</span>
+  <span>Strona [page]/[topage] · <a href="https://www.360biuro.pl">www.360biuro.pl</a></span>
+</div>
+</body>
+</html>`, left)
+}
+
 func generateHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
 		http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
@@ -362,10 +465,7 @@ func generateHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	version := strings.TrimSpace(r.FormValue("_wersja"))
-	if version == "" {
-		version = "brak"
-	}
+	version := strings.TrimSpace(defaultVersion())
 	generatedAt := time.Now().Format("2006-01-02 15:04")
 
 	values := map[string]string{}
@@ -399,8 +499,7 @@ func generateHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		pdf, err := htmlToPDF(
 			fullHTML,
-			fmt.Sprintf("Wersja: %s — %s", version, generatedAt),
-			"Strona [page] / [topage]",
+			footerHTML(version, generatedAt),
 		)
 		if err != nil {
 			http.Error(w, fmt.Sprintf("błąd generowania PDF dla %s: %v", d.file, err), http.StatusInternalServerError)

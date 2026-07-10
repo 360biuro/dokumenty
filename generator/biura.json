@@ -1,0 +1,32 @@
+{
+  "HD76": {
+    "biuro_nazwa": "HD76 P.S.A",
+    "biuro_nip": "7412169812",
+    "biuro_reprezentant": "Artur Suski",
+    "biuro_pesel": "76042111695",
+    "biuro_opiekun": "Artur Suski",
+    "biuro_email_opiekun": "info@360biuro.pl",
+    "biuro_tel_opiekun": "+48510531400",
+    "biuro_ksiegowy": "Artur Suski",
+    "biuro_email_ksiegowosc": "info@360biuro.pl",
+    "biuro_tel_ksiegowosc": "+48510531400",
+    "biuro_kadry": "Artur Suski",
+    "biuro_email_kadry": "info@360biuro.pl",
+    "biuro_tel_kadry": "+48510531400"
+  },
+  "360Biuro": {
+    "biuro_nazwa": "360Biuro Sp. z o.o.",
+    "biuro_nip": "7412176226",
+    "biuro_reprezentant": "Artur Suski",
+    "biuro_pesel": "76042111695",
+    "biuro_opiekun": "Artur Suski",
+    "biuro_email_opiekun": "info@360biuro.pl",
+    "biuro_tel_opiekun": "+48510531400",
+    "biuro_ksiegowy": "Artur Suski",
+    "biuro_email_ksiegowosc": "info@360biuro.pl",
+    "biuro_tel_ksiegowosc": "+48510531400",
+    "biuro_kadry": "Artur Suski",
+    "biuro_email_kadry": "info@360biuro.pl",
+    "biuro_tel_kadry": "+48510531400"
+  }
+}

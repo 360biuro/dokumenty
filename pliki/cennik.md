@@ -9,10 +9,10 @@
 | Opis/Plan | START | MINI | MIDI | MAXI | ULTRA |
 | ----- | :---: | :---: | :---: | :---: | :---: |
 | Maks. czas świadczenia usług (h/m-c) | 1,00 | 3,00 | 9,00 | 27,00 | 81,00 |
-| Koszt świadczenia usług (PLN/m-c) | 300,00 | 750,00 | 1 450,00 | 2 850,00 | 5 650,00 |
-| Stały koszt infrastrukturalny (PLN/m-c) | 90,00 | 90,00 | 90,00 | 90,00 | 90,00 |
-| **Łączna miesięczna opłata abonamentowa (PLN/m-c)** | **390,00** | **840,00** | **1 540,00** | **2 940,00** | **5 740,00** |
-| Koszt usług poza planem lub dodatkowych (PLN/godz.) | 360,00 | 288,00 | 230,40 | 184,32 | 147,46 |
+| Koszt świadczenia usług (m-c) | 300,00 | 750,00 | 1 450,00 | 2 850,00 | 5 650,00 |
+| Stały koszt infrastrukturalny (m-c) | 90,00 | 90,00 | 90,00 | 90,00 | 90,00 |
+| **Łączna miesięczna opłata abonamentowa (m-c)** | **390,00** | **840,00** | **1 540,00** | **2 940,00** | **5 740,00** |
+| Koszt usług poza planem lub dodatkowych (godz.) | 360,00 | 288,00 | 230,40 | 184,32 | 147,46 |
 
 ## 2. Podstawowe informacje o usługach księgowych
 
@@ -21,8 +21,6 @@
 3. Każda czynność wykonywana przez Biuro w ramach modelu abonamentowego stanowi element puli czasu, niezależnie od jej charakteru.
 4. Zakres usług obejmuje bieżącą obsługę operacyjną Klienta w obszarze księgowości.
 5. Usługi mają charakter operacyjny i nie obejmują doradztwa, opinii ani czynności zastrzeżonych dla odrębnych uprawnień zawodowych, chyba że Strony ustalą inaczej w formie dokumentowej.
-6. Cennik jest w walucie PLN.
-7. W przypadku wystawiania przez Biuro faktur VAT, podane kwoty są cenami netto.
 
 ## 3. Zakres usług księgowych
 
@@ -103,8 +101,6 @@ Abonament nie obejmuje:
 2. Usługi dodatkowe określone w cenniku jako „opcjonalne”, wykonywane są po ich zleceniu przez Klienta.
 3. Zakres usług obejmuje bieżącą obsługę operacyjną Klienta w obszarze kadr i płac.
 4. Usługi mają charakter operacyjny i nie obejmują doradztwa, opinii ani czynności zastrzeżonych dla odrębnych uprawnień zawodowych, chyba że Strony ustalą inaczej w formie dokumentowej.
-5. Cennik jest w walucie PLN.
-6. W przypadku wystawiania przez Biuro faktur VAT, podane kwoty są cenami netto.
 
 ## 9. Zakres usług standardowych (kadrowo-płacowych)
 
@@ -171,3 +167,7 @@ Usługami dodatkowymi specjalistycznymi są:
 11. postępowania wyjaśniające,
 12. czynności wymagające licencji lub odrębnych uprawnień zawodowych,
 13. usługi niewymienione wśród usług standardowych i dodatkowych operacyjnych.
+
+## 13. Informacje dodatkowe
+
+1. Ceny nie zawierają podatku VAT i określone są w walucie PLN.

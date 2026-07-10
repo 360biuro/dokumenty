@@ -6,7 +6,7 @@
 
 ## 1. Definicje
 
-1. **Cennik** – obowiązujący cennik usług Biura, stanowiący integralny załącznik do Umowy.
+1. **Cennik** – obowiązujący cennik i zakres usług Biura, stanowiący integralny załącznik do Umowy.
 2. **Limit czasu** – limit czasu pracy Biura przypisany do wybranego planu abonamentowego, obejmujący całkowity czas pracy związany z obsługą Klienta, w szczególności analizę dokumentów, księgowanie, przygotowanie deklaracji, kontakt z Klientem, wyjaśnienia, korekty, reprezentację oraz inne czynności wynikające z Umowy.
 
 ## 2. Model świadczenia usług i limity
