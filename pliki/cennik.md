@@ -39,9 +39,8 @@
    1. uzgadnianie sald,
    2. kontrola rozrachunków.
 4. Raportowanie:
-   1. rachunek zysków i strat oraz bilans (miesięcznie i rocznie),
-   2. cash flow,
-   3. podstawowe zestawienia zarządcze.
+   1. sporządzanie rachunku zysków i strat oraz bilansu,
+   4. sporządzenie rocznego sprawozdania finansowego
 5. Obsługa klienta:
    1. konsultacje w zakresie bieżącej księgowości,
    2. komunikacja i korespondencja związana z bieżącą obsługą.
